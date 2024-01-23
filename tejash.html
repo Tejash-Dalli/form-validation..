@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>
+		Form validation using HTML
+		and JavaScript
+	</title>
+	<style>
+		div {
+			box-sizing: border-box;
+			width: 100%;
+			border: 100px solid black;
+			float: left;
+			align-content: center;
+			align-items: center;
+		}
+
+		form {
+			margin: 0 auto;
+			width: 600px;
+		}
+	</style>
+</head>
+
+<body>
+	<h1 style="text-align: center;">
+		REGISTRATION FORM
+	</h1>
+	<form name="RegForm"
+		onsubmit="return INTRAINZ()">
+		<p>
+			Name:
+			<input type="text" size="65"
+				name="Full Name"
+				placeholder="Intrainz"/>
+		</p>
+		<br />
+		
+		
+		<p>
+			E-mail Address:
+			<input type="text" size="65"
+				name="EMail"
+				placeholder="intrainz@xyz.com"/>
+		</p>
+		<br />
+
+
+		<p>
+			Password:
+			<input type="password" size="65"
+				name="Password" />
+		</p>
+        <br/>
+
+
+        <p> 
+        Confirm Password
+             <input type="password" size="65"
+				name="Confirm Password" />
+       </p>
+		<br />
+
+
+		<p>
+			Phone Number:
+			<input type="tel" size="65"
+				name="phone number"
+				placeholder="9876543210"/>
+		</p>
+		<br />
+
+
+		
+        
+		<br />
+		
+		<p>
+			<input type="submit" value="Submit"
+				name="Submit" />
+			<input type="reset" value="Reset"
+				name="Reset" />
+		</p>
+	</form>
+	<script src="script2.js"></script>
+</body>
+
+</html>
